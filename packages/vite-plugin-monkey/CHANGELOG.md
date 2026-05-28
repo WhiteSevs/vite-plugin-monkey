@@ -1,3 +1,3 @@
 # What's Changed
 
-- fix: optimize option resolution in plugin initialization
+- fix: preserve build.rolldownOptions.output (#289)
