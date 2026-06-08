@@ -69,9 +69,16 @@
       "prettier --cache --write"
     ]
   },
-  "volta": {
-    "node": "24.15.0",
-    "pnpm": "10.33.2"
-  },
-  "packageManager": "pnpm@10.33.2"
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": "24",
+      "onFail": "error"
+    },
+    "packageManager": {
+      "name": "pnpm",
+      "version": "11.5.2",
+      "onFail": "error"
+    }
+  }
 }
